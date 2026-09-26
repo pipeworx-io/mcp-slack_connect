@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-slack_connect",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Slack MCP Pack",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-692ffad3bee584d404c0d4bcb060e94aaa2cab1bdc6a3d0bcc718b28e9b0ff7e",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-a672bd73b1984a9fa9941c19cecfea3d83c775c5c3cd691f8667ed3d1ebe0bf8",
+    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
   }
 }
