@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-slack_connect",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Slack MCP Pack",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-slack_connect": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "slack_connect"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-slack_connect.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/slack_connect",
   "pipeworx": {
-    "sourceHash": "v1-a672bd73b1984a9fa9941c19cecfea3d83c775c5c3cd691f8667ed3d1ebe0bf8",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "slack_connect",
+    "gatewaySlug": "slack_connect",
+    "sourceHash": "v1-7486d0ab9789ee7ef73e72c9beaabe690ea81afe997147810f7e0c28c3d4f84f",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
