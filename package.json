@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-slack_connect",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Slack MCP Pack",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "slack_connect",
     "gatewaySlug": "slack_connect",
-    "sourceHash": "v1-7486d0ab9789ee7ef73e72c9beaabe690ea81afe997147810f7e0c28c3d4f84f",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-28e5d35252d6ec6bb3519a76a7341815bed11a722326fc195a12a6f611d90b67",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
